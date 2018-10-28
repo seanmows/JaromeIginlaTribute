@@ -1,0 +1,23 @@
+// Small tablets (portrait view)
+$screen-sm-min: 992px;
+
+// Tablets and small desktops
+$screen-md-min: 1200px;
+
+
+@mixin sm {
+    @media (max-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ 
+ // Medium devices
+ @mixin md {
+    @media (max-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ 
+@import 'global';
+@import 'title';
+@import 'body';
