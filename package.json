@@ -24,7 +24,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.1.5",
-    "browser-sync": "^2.24.7",
+    "browser-sync": "^2.29.1",
     "concat": "^1.0.3",
     "imagemin-cli": "^3.0.0",
     "node-sass": "^4.9.3",
